@@ -28,10 +28,5 @@ namespace NetStateSpeed
             return httpClient;
 
         }
-
-        
-
-
-
     }
 }

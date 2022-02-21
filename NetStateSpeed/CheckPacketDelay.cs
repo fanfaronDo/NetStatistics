@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Net.NetworkInformation;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace NetStateSpeed
 {
     class CheckPacketDelay
     {
+        private Ping checkPing = new Ping();
+
         public int CheckPing(string host) 
         {
             
-            var checkPing = new Ping();
 
             var arrPing = new int [10];
 

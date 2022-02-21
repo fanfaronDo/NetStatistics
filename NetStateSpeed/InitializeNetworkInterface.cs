@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net.NetworkInformation;
 using System.Windows.Forms;
 
 namespace NetStateSpeed
 {
     class InitializeNetworkInterface
     {
+
         public static NetworkInterface[] networkInterfaces = NetworkInterface.GetAllNetworkInterfaces();
 
 

@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="LiveCharts.WinForms" Version="0.9.7.1" />
+    <PackageReference Include="LiveCharts.WinForms.NetCore3" Version="0.9.7" />
   </ItemGroup>
 
   <ItemGroup>

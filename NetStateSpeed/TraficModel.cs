@@ -44,5 +44,6 @@ namespace NetStateSpeed
         public double resultDownload = 0;
 
         public bool controller = false;
+        public bool btncontroller = false;
     }
 }
